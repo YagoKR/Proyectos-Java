@@ -45,6 +45,9 @@ public class yagofc {
             }
             
             if (i == 2) {
+                  if (j.isEmpty()) {
+                    System.out.println("La lista está vacía");
+                }
                  for (Jugador jugador : j) {
                       if (jugador instanceof Delanteros) {
                            System.out.println("Nombre: " + jugador.nombre + "Goles: " + ((Delanteros) jugador).goles);
@@ -84,6 +87,9 @@ public class yagofc {
             }
             
             if (i == 5) {
+                  if (j.isEmpty()) {
+                    System.out.println("La lista está vacía");
+                }
                 for (Jugador jugador : j) {
                     if (jugador instanceof Delanteros) {
                            ((Delanteros) jugador).atacar();
@@ -99,6 +105,9 @@ public class yagofc {
             }
             
              if (i == 6) {
+                   if (j.isEmpty()) {
+                    System.out.println("La lista está vacía");
+                }
                 System.out.println("Introduzca el nombre del jugador que quiere entrenar: ");
                 String s = t.nextLine();
                  for (Jugador jugador : j) {
@@ -119,6 +128,9 @@ public class yagofc {
             }
              
             if (i == 7) {
+                  if (j.isEmpty()) {
+                    System.out.println("La lista está vacía");
+                }
                 for (Jugador jugador : j) {
                     if (jugador instanceof Delanteros) {
                            ((Delanteros) jugador).entrenar();
