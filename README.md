@@ -5,3 +5,4 @@ Dos programas sencillos:
 
 MLY_RelojDigital incluye un programa sencillo de un reloj digital, que se actualiza en tiempo real y permite crear y eliminar alarmas.
 DI_Actividad2 incluye un FileManager para editar, eliminar y guardar ficheros.
+MLY_tarea04 incluye es un proyecto de hilos, simulando un supermercado.
